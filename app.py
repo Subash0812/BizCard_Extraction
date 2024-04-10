@@ -11,13 +11,6 @@ import mysql.connector
 #--------------------------------------------------EasyOCR Reader-------------------------------------------------------------
 reader = easyocr.Reader(['en'],gpu=False)
 
-# config = {
-#     'host':'database-1.cp40yqs0ismt.ap-south-1.rds.amazonaws.com',
-#     'user':'admin',   'password':'root2012', 'database':'bizcard'
-# }
-# mydb = mysql.connector.connect(**config)
-
-
 #---------------------------------------------------MySQL Connection------------------------------------------------------
 config = {
     'host':'127.0.0.1',     'user':'root',
